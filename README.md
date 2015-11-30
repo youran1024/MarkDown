@@ -1,7 +1,7 @@
 #### 说明
-MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，不易掌握而生的，但是MarkDown的语法最终还是会被编译成HTML语言，只不过对大家而言是不透明的，所以MarkDown编辑器是支持HTML语言的，所以如果MarKDown的部分语法如果满足不了你的需求，你是可以寻求HTML语言支持的。
+MarkDown是为了简化大家编写<a name="top">[HTML](#html)</a>（网页）语言的繁琐，不易掌握而生的，但是MarkDown的语法最终还是会被编译成HTML语言，只不过对大家而言是不透明的，所以MarkDown编辑器是支持HTML语言的，所以如果MarKDown的部分语法如果满足不了你的需求，你是可以寻求HTML语言支持的。
 
-开始前请先下载Mou，以便对比学习
+强烈推荐先下载Mou，用Mou打开此文档
 
 [Mou](http://25.io/mou/)的下载
 
@@ -25,7 +25,7 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
 #####h5
 ######h6
 
-<!-- empty 标记是为了页内跳转 -->
+<!-- empty标记是为了页内跳转，可能有些编辑器不能识别 -->
 - ### <empty id="1.1">加粗</empty>
 **这是粗体**
 
@@ -57,7 +57,7 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
 |left2           |center2       |<u>right2</u>                |
 
 
-### <empty id=4>多选框</empty>
+### <empty id=4>多选框</empty>, 有些编辑器可能不识别像Mou
 + **我喜欢的运动**
   - [x] 游泳
   - [x] 篮球，足球，乒乓球，羽毛球，台球...
@@ -92,23 +92,24 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
 ---
 ### 链接
 - 1.1 文本链接
-  - [百度](http://www.baidu.com)
+  - [百度](http://www.baidu.com "Baidu全球中文搜索引擎")
 - 1.2 隐式链接
   -   *隐式链接， 系统自动识别，需要加http*
   -    <http://www.baidu.com>
 - 1.3 引用链接(鼠标悬停是会显示注释的哦~)
   
-  [云账户][1] 
-- [引用链接]，[1]是引用标签， [1]:可以放在文章任意位置  
+	- [云账户][1] 
+	- [1]是引用标签， [1]:可以放在文章任意位置, 任何[1]都会被识别
+	- [Hunter], [Hunter], [Hunter]
   [1]:https://www.yunzhanghu.com "云账户is a diffent pocker"
-- 1.4 图片链接
-
-  ![yun](https://www.yunzhanghu.com/img/logo.png "云账户 is a pocket")
+  [Hunter]: http://github.com/youran1024  "You know Hunter?"
   
-####method2
+- 1.4 图片链接
+  
+  ![yun](https://www.yunzhanghu.com/img/logo.png "云账户 is a pocket")
 
 
-### Code
+### Whrite the Code Change the world
 ```
 typedef void(^InvestCallBackBlock)(InvestCallBackMethod, NSDictionary *);
 
@@ -124,11 +125,9 @@ static inline UIColor * ht_hexColor(uint color)
 ```
 
 页内跳转
+<a href="#html"></a> 
 <sign id=html></sign>[ **`HTML`** ]:"网页编程语言，比MarkDown要难学，但是很强大哦~" 
 
-隐式注释
-[foo]: http://example.com/  "You know Hunter?"
-see nothing~
 
 
 
