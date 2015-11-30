@@ -1,6 +1,10 @@
 #### 说明
 MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，不易掌握而生的，但是MarkDown的语法最终还是会被编译成HTML语言，只不过对大家而言是不透明的，所以MarkDown编辑器是支持HTML语言的，所以如果MarKDown的部分语法如果满足不了你的需求，你是可以寻求HTML语言支持的。
 
+开始前请先下载Mou，以便对比学习
+
+[Mou](http://25.io/mou/)的下载
+
 ###目录 （<font color=red>页面内跳转</font>）
 - [1.字体](#1)
   * [1.1 加粗](#1.1)
@@ -43,7 +47,7 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
 ***
 
 
-### 表格 <br> (** <font color=red>注意对齐方式: ,表格内加粗，变斜.. **</font>)
+### <empty id=3>表格</empty> <br> (** <font color=red>注意对齐方式: ,表格内加粗，变斜.. **</font>) 
 
 
 |left alignment  |middle center |right alignment              |
@@ -53,7 +57,7 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
 |left2           |center2       |<u>right2</u>                |
 
 
-### 多选框
+### <empty id=4>多选框</empty>
 + **我喜欢的运动**
   - [x] 游泳
   - [x] 篮球，足球，乒乓球，羽毛球，台球...
@@ -91,12 +95,15 @@ MarkDown是为了简化大家编写[HTML](#html)（网页）语言的繁琐，�
   - [百度](http://www.baidu.com)
 - 1.2 隐式链接
   -   *隐式链接， 系统自动识别，需要加http*
-      <http://www.baidu.com>
+  -    <http://www.baidu.com>
 - 1.3 引用链接(鼠标悬停是会显示注释的哦~)
-  - [云账户][1] 
+  
+  [云账户][1] 
+- [引用链接]，[1]是引用标签， [1]:可以放在文章任意位置  
   [1]:https://www.yunzhanghu.com "云账户is a diffent pocker"
 - 1.4 图片链接
-  - ![yun](https://www.yunzhanghu.com/img/logo.png "云账户 is a pocket")
+
+  ![yun](https://www.yunzhanghu.com/img/logo.png "云账户 is a pocket")
   
 ####method2
 
@@ -122,6 +129,7 @@ static inline UIColor * ht_hexColor(uint color)
 隐式注释
 [foo]: http://example.com/  "You know Hunter?"
 see nothing~
+
 
 
 > **Powered by [Mr.Yang](https://github.com/youran1024)**
