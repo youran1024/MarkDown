@@ -1,9 +1,14 @@
 #### 说明
-MarkDown是为了简化大家编写<a name="top">[HTML](#html)</a>（网页）语言的繁琐，不易掌握而生的，但是MarkDown的语法最终还是会被编译成HTML语言，只不过对大家而言是不透明的，所以MarkDown编辑器是支持HTML语言的，所以如果MarKDown的部分语法如果满足不了你的需求，你是可以寻求HTML语言支持的。
+MarkDown是为了简化大家编写<a name="top">[HTML](#html)</a>（网页）语言的繁琐，不易掌握而生的，但是MarkDown的语法最终还是会被编译成HTML语言，只不过对大家而言是不透明的，所以MarkDown编辑器是支持HTML语言的，你如果想实现更丰富的效果，是可以用HTML语言编写文档的。
 
-强烈推荐先下载Mou，用Mou打开此文档
+** 学习步骤 **
 
-[Mou](http://25.io/mou/)的下载
+1. 强烈推荐先下载[Mou], Mac平台上一款优秀的Markdown编辑器
+2. 下载此文档，单击右上角往下10厘米出的 Download Zip 下载
+3. 用Mou打开此文档
+4. 左侧源码，右侧效果，对照学习
+
+[Mou]:http://25.io/mou/
 
 ###目录 （<font color=red>页面内跳转</font>）
 - [1.字体](#1)
